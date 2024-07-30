@@ -28,7 +28,7 @@ include(FetchContent)
 
 function(fetch_tiledb_release_list VERSION)
         # Local constants
-        set(UPSTREAM_URL "https://github.com/TileDB-Inc/TileDB/releases/download")
+        set(UPSTREAM_URL "https://github.com/teo-tsirpanis/TileDB/releases/download")
         list(LENGTH ARGV COUNT)
         if (${COUNT} GREATER 1)
                 list(GET ARGV 1 EXPECTED_HASH)
